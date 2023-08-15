@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html Lang="en">
 <head>
+    <meta charset="UTF-8">
     <link href="styles.css" rel="stylesheet"/>
     <title>Weather App</title>
 </head>
@@ -8,7 +9,8 @@
 <main>
     <section id="weather-wapper">
         <h1>Weather App</h1>
-        <div id="search" type="text" placeholder="Seach by city">
+        <div id="weather-search">
+        <input id="search" type="text" placeholder="Seach by city">
         <input id="submit" type="submit" onclick="fetchWeather()" value="Seach">    
         </div>
         <div id="weather-data" style="display: none;"></div>
