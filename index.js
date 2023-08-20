@@ -3,7 +3,7 @@ async function fetchWeather() {
     const weatherDataSection = document.getElementById("weather-data");
     weatherDataSection.style.display = "block";
   
-    const apiKey = "REPLACE WITH YOUR API KEY"
+    const apiKey = "923caf2168216352676210c04947fa5f"
   
   
     if(searchInput == "") {
